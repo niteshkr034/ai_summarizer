@@ -1,7 +1,8 @@
-import Hero from './components/Hero';
-import Demo from './components/Demo';
+
 
 import './App.css';
+import Demooo from './components/Demo';
+import Hero, { Hero1 }  from './components/Hero';
 
 const App = () => {
   return (
@@ -11,7 +12,8 @@ const App = () => {
             </div>
             <div className="app">
                 <Hero/> 
-                <Demo/> 
+                <Hero1/>
+                <Demooo/> 
             </div>
     </main>
   )
